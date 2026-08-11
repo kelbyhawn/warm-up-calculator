@@ -4,6 +4,8 @@
 
 Calculate basic weightlifting warm-up sets.
 
+https://warm-up-calculator.netlify.app
+
 ## Dependencies
 
 - [React](https://reactjs.org/) - A declarative, efficient, and flexible JavaScript library for building user interfaces.
