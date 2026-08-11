@@ -1,5 +1,7 @@
 # 🏋🏻‍♀️ Warm-Up Calculator
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fb4e03f4-7acf-414e-aff7-1a56cd367a05/deploy-status)](https://app.netlify.com/projects/warm-up-calculator/deploys)
+
 Calculate basic weightlifting warm-up sets.
 
 ## Dependencies
