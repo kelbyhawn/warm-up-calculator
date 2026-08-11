@@ -1,6 +1,6 @@
 # 🏋🏻‍♀️ Warm-Up Calculator
 
-Calculate warm-up sets for weightlifting.
+Calculate basic weightlifting warm-up sets.
 
 ## Dependencies
 
