@@ -1,5 +1,10 @@
+import { Suspense } from "react";
 import Container from "../Container";
 
 export default function Home() {
-  return <Container />;
+  return (
+    <Suspense fallback={null}>
+      <Container />
+    </Suspense>
+  );
 }
