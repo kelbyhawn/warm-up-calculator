@@ -17,7 +17,8 @@ function Container() {
   return (
     <main>
       <section>
-        <h1>🏋🏻‍♀️ Warm-Up Calculator</h1>
+        <span>🏋🏻‍♀️</span>
+        <h1>Warm-Up Calculator</h1>
         <WeightInput value={weight} onChange={handleOnChange} />
         <SetsOutput weight={weight} />
       </section>
