@@ -19,7 +19,9 @@ function SetsOutput({ weight }: SetsOutputProps) {
     <ul>
       {sets.map((set, i) => (
         <li key={i}>
-          <h2>{set.reps} Reps</h2>
+          <h2>
+            {set.reps} Reps • {set.percent}%
+          </h2>
           <p>{getWeight(weight, set.percent)}</p>
         </li>
       ))}
