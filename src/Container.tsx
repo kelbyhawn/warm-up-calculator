@@ -22,8 +22,8 @@ function Container() {
         <h1>Warm-Up Calculator</h1>
         <WeightInput value={weight} onChange={handleOnChange} />
         <SetsOutput weight={weight} />
+        <Footer />
       </section>
-      <Footer />
     </main>
   );
 }
