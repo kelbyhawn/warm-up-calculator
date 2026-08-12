@@ -3,11 +3,7 @@ type SetsOutputProps = {
 };
 
 function SetsOutput({ weight }: SetsOutputProps) {
-  const sets = [
-    { reps: 5, percent: 40 },
-    { reps: 5, percent: 60 },
-    { reps: 3, percent: 80 },
-  ];
+  const percents = [40, 60, 80];
 
   // Round to the nearest 5
   const getWeight = (weight: number, percent: number) => {
@@ -17,12 +13,10 @@ function SetsOutput({ weight }: SetsOutputProps) {
 
   return (
     <ul>
-      {sets.map((set, i) => (
-        <li key={i}>
-          <h2>
-            {set.reps} Reps • {set.percent}%
-          </h2>
-          <p>{getWeight(weight, set.percent)}</p>
+      {percents.map((percent) => (
+        <li key={percent}>
+          <h2>Reps @ {percent}%</h2>
+          <p>{getWeight(weight, percent)}</p>
         </li>
       ))}
     </ul>
