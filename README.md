@@ -4,7 +4,7 @@
 
 Calculate basic weightlifting warm-up sets.
 
-https://warm-up-calculator.netlify.app
+[https://warm-up-calculator.netlify.app](https://warm-up-calculator.netlify.app/?weight=0)
 
 ## Dependencies
 
