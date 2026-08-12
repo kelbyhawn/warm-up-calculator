@@ -87,3 +87,20 @@ li {
   all: unset;
   list-style: none;
 }
+
+footer p {
+  margin-top: 3rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgba($color-main, 0.6);
+
+  a {
+    color: rgba($color-main, 0.6);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+      color: $color-accent;
+    }
+  }
+}
