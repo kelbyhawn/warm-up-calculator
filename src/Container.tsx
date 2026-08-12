@@ -2,6 +2,7 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import WeightInput from "./components/WeightInput";
 import SetsOutput from "./components/SetsOutput";
+import Footer from "./components/Footer";
 
 function Container() {
   const router = useRouter();
@@ -22,6 +23,7 @@ function Container() {
         <WeightInput value={weight} onChange={handleOnChange} />
         <SetsOutput weight={weight} />
       </section>
+      <Footer />
     </main>
   );
 }
