@@ -52,6 +52,7 @@ input {
   all: unset;
   cursor: text;
   color: $color-accent;
+  caret-color: $color-accent;
   background: rgba($color-accent, 0.1);
   font-size: 2rem;
   border-radius: 0.25rem;
