@@ -52,6 +52,7 @@ input {
   all: unset;
   cursor: text;
   color: $color-accent;
+  caret-color: $color-accent;
   background: rgba($color-accent, 0.1);
   font-size: 2rem;
   border-radius: 0.25rem;
@@ -59,20 +60,6 @@ input {
 
   &::placeholder {
     color: rgba($color-accent, 0.5);
-  }
-
-  // Hide increment buttons
-  // Chromium/Webkit browsers
-  &[type="number"]::-webkit-outer-spin-button,
-  &[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-
-  // Firefox
-  &[type="number"] {
-    -moz-appearance: textfield;
-    appearance: textfield;
   }
 }
 

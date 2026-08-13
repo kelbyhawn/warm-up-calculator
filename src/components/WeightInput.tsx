@@ -9,8 +9,10 @@ function WeightInput({ value, onChange }: WeightInputProps) {
       Working Weight (lbs)
       <input
         name="weight-input"
-        type="number"
+        type="text"
+        inputMode="numeric"
         placeholder="100"
+        autoFocus={value === 0}
         value={value === 0 ? "" : value}
         onChange={onChange}
       />
