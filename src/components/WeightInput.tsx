@@ -12,6 +12,7 @@ function WeightInput({ value, onChange }: WeightInputProps) {
         type="text"
         inputMode="numeric"
         placeholder="100"
+        maxLength={4}
         autoFocus={value === 0}
         value={value === 0 ? "" : value}
         onChange={onChange}
