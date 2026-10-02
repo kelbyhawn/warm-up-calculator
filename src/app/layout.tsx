@@ -10,6 +10,10 @@ const inclusiveSans = Inclusive_Sans({
 export const metadata: Metadata = {
   title: "Warm-Up Calculator",
   description: "Calculate basic weightlifting warm-up sets.",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
