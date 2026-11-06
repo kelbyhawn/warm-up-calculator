@@ -5,7 +5,7 @@ export default function Footer() {
     <footer>
       <p>
         ©{year} • Made by{" "}
-        <a href="https://kelbyhawn.com" target="_blank" rel="noreferrer">
+        <a href="https://kelbyhawn.com" rel="noreferrer">
           Kelby Hawn
         </a>
       </p>
